@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.lien {
+  margin-top: 3em;
+  padding: 4em;
+  display: flex;
+  flex-direction: column;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.hyperlien {
+  font-size: 1.5em;
+  border: 1px solid black;
+  text-align: center;
+  color: rgb(74, 73, 73);
+  text-decoration: none;
+  padding: 0.5em;
+}
+
+.flex {
+  width: 100vw;
+  display: flex;
+}
+
+.exo {
+  color: rgb(0, 0, 0);
+  margin-top: 2em;
+  width: 80%;
+  border: 1px solid black;
+  padding: 2em;
+}
+
+.titre {
+  font-size: 3em;
+  text-align: center;
+}
+
+.enoncer {
+  padding: 2em 0;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.txt-exo {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.txt {
+  font-size: 2em;
+  padding-top: 2em;
+  border: 1px solid black;
+  width: 700px;
+  height: 700px;
+  text-align: center;
+}
+.marginbot {
+  margin-bottom: 2em;
+}
+
+.margin {
+  margin-right: 2em;
+}
+
+span {
+  font-size: 0.7em;
+  color: black;
+}
